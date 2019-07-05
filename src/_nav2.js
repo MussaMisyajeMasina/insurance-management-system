@@ -1,12 +1,12 @@
 export default {
   items: [{
       name: 'Dashboard',
-      url: '/dashboard',
-      icon: 'icon-speedometer',
+      url: '/udashboard',
+      icon: 'icon-doc',
     },
     {
       title: true,
-      name: 'Insurance Category',
+      name: 'CLIENTS',
       class: '',
       wrapper: {
         element: '',
@@ -14,18 +14,29 @@ export default {
       }
     },
     {
-      name: 'Add Category',
-      url: '/AddCategory',
-      icon: 'icon-pencil '
+      name: 'New Client',
+      url: '/AddClient',
+      icon: 'icon-plus '
     },
     {
-      name: 'Manage Categories',
-      url: '/theme/typography',
+      name: 'Manage Clients',
+      url: '/User',
+      icon: 'icon-doc'
+    },
+    
+    {
+      name: 'Manage Policies',
+      url: '/ManageClientPolicy',
+      icon: 'icon-doc'
+    },
+    {
+      name: 'Messages',
+      url: '/SMS',
       icon: 'icon-doc'
     },
     {
       title: true,
-      name: 'Insurance SubCategory',
+      name: 'CLAIMS',
       class: '',
       wrapper: {
         element: '',
@@ -33,18 +44,23 @@ export default {
       }
     },
     {
-      name: 'Add SubCategory',
-      url: '/base',
-      icon: 'icon-pencil',
+      name: 'New Claim',
+      url: '/RegisterClaim',
+      icon: 'icon-plus',
     },
     {
-      name: 'Manage SubCategory',
-      url: '/buttons',
+      name: 'Manage Claims',
+      url: '/ManageClaim',
       icon: 'icon-doc',
     },
     {
+      name: 'Claim History',
+      url: '/ClaimHistory',
+      icon: 'icon-doc'
+    },
+    {
       title: true,
-      name: 'Insurance Policy',
+      name: 'PREMIUMS',
       class: '',
       wrapper: {
         element: '',
@@ -52,18 +68,23 @@ export default {
       }
     },
     {
-      name: 'Add Policy',
-      url: '/charts',
+      name: 'Payment',
+      url: '/Payment',
       icon: 'icon-pencil'
     },
     {
-      name: 'Manage Policy',
-      url: '/icons',
+      name: 'Manage Premiums',
+      url: '/ManagePremium',
       icon: 'icon-doc',
     },
     {
+      name: 'Bonus',
+      url: '/Bonus',
+      icon: 'icon-doc'
+    },
+    {
       title: true,
-      name: 'User Details',
+      name: 'REPORTS',
       class: '',
       wrapper: {
         element: '',
@@ -71,62 +92,15 @@ export default {
       },
     },
     {
-      name: 'Add User',
-      url: '/notifications',
+      name: 'Reports',
+      url: '/Report',
       icon: 'icon-doc',
     },
-    {
-      name: 'All Users',
-      url: '/notifications',
-      icon: 'icon-doc',
-    },
-    {
-      title: true,
-      name: 'Policy Holders',
-      class: '',
-      wrapper: {
-        element: '',
-        attributes: {}
-      }
-    },
-    {
-      name: 'Pending Policy',
-      url: '/widgets',
-      icon: 'icon-doc',
-    },
-    {
-      name: 'Approved Policy',
-      url: '/notifications',
-      icon: 'icon-doc',
-    },
-    {
-      name: 'Disapproved Policy',
-      url: '/notifications',
-      icon: 'icon-doc',
-    },
-    {
-      title: true,
-      name: 'Claims',
-      class: '',
-      wrapper: {
-        element: '',
-        attributes: {}
-      }
-    }, {
-      name: 'Accepted claims',
-      url: '/widgets',
-      icon: 'icon-doc',
-    }, {
-      name: 'Rejected Claims',
-      url: '/notifications',
-      icon: 'icon-doc',
-    }, {
-      name: 'Pending Claims',
-      url: '/notifications',
-      icon: 'icon-doc',
-    },
+
     {
       divider: true
     },
   ]
 }
+
+

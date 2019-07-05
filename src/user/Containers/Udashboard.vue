@@ -11,7 +11,7 @@
               <b-dropdown-item>Remove</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">0</h4>
-            <p>Total Employees so far</p>
+            <p>Total clients so far</p>
           </b-card-body>
           <card-line1-chart-example chartId="card-chart-01" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>
@@ -26,7 +26,7 @@
               <b-dropdown-item>Remove</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">0</h4>
-            <p>User employees</p>
+            <p>Active Clients</p>
           </b-card-body>
           <card-line1-chart-example chartId="card-chart-01" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>
@@ -41,7 +41,7 @@
               <b-dropdown-item>Remove</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">0</h4>
-            <p>Non user employees</p>
+            <p>Inactive Clients</p>
           </b-card-body>
           <card-line1-chart-example chartId="card-chart-01" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>
@@ -56,7 +56,7 @@
               <b-dropdown-item>Remove</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">0</h4>
-            <p>Other employees</p>
+            <p>Gone Clients</p>
           </b-card-body>
           <card-line1-chart-example chartId="card-chart-01" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>

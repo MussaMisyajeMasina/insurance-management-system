@@ -3,11 +3,11 @@
     <AppHeader fixed>
       <SidebarToggler class="d-lg-none" display="md" mobile />
       <b-link class="navbar-brand" to="#">
-       <strong>IMS|Admin</strong>
+       <strong>IMS|USER</strong>
       </b-link>
       <SidebarToggler class="d-md-down-none" display="lg" />
       <b-navbar-nav class="ml-auto">
-        <DefaultHeaderDropdownAccnt/>
+        <UdefaultHeaderDropdownAccnt/>
       </b-navbar-nav>
       <!--<AsideToggler class="d-lg-none" mobile />-->
     </AppHeader>
@@ -40,12 +40,12 @@
 </template>
 
 <script>
-import nav from '@/_nav'
+import nav from '@/_nav2'
 import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
-import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
+import UdefaultHeaderDropdownAccnt from './UdefaultHeaderDropdownAccnt'
 
 export default {
-  name: 'DefaultContainer',
+  name: 'UdefaultContainer',
   components: {
     AsideToggler,
     AppHeader,
@@ -53,7 +53,7 @@ export default {
     AppAside,
     TheFooter,
     Breadcrumb,
-    DefaultHeaderDropdownAccnt,
+    UdefaultHeaderDropdownAccnt,
     SidebarForm,
     SidebarFooter,
     SidebarToggler,

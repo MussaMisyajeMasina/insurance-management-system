@@ -16,11 +16,11 @@
       <div class="collapse navbar-collapse" id="navbarMenu">
         <a class="navbar-brand" href="#">INSURANCE MANAGEMENT SYSTEM</a>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+         <!-- <li class="nav-item active">
             <router-link class="nav-link" to="/Udashboard">User Login</router-link>
-          </li>
+          </li>-->
           <li class="nav-item active">
-            <router-link class="nav-link" to="/dashboard"> Admin Login</router-link>
+            <router-link class="nav-link" to="/Loginform" >Login</router-link>
           </li>
         </ul>
       </div>
@@ -34,10 +34,10 @@
   </div>
 
   <!-- Footer -->
-  <footer class="page-footer fixed-bottom font-small blue pt-5">
+  <footer class="page-footer fixed-bottom font-small pt-4">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
+    <div class="footer-copyright text-center font-2xl py-3">
       Copyright©
       <a  href="#">Insurance Management System</a>
     </div>
@@ -81,6 +81,9 @@ export default {
 }
 .footer-copyright a{
   color: #ffff;
+}
+.page-footer{
+   background-color : #343a40;
 }
 .navbar-brand {
   font-size: 1rem;
